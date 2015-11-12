@@ -23,16 +23,6 @@ public class Drawing extends JFrame {
 	
 	public static void main(String[] args) {
 		
-		//This application was written using Eclipse for OS X
-		//It might add some funny characters to the println function on windows
-		//sorry about that
-		System.out.println( "­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­---------------------------------------" ); 
-		System.out.println( " 159.235 Assignment 1, Semester 2 2015 " ); 
-		System.out.println( " Submitted by: Jumaah, Bilal, 12232659 " );
-		System.out.println( "              Jackson, Jonny, 14089365 " );
-		System.out.println( "             Creevey, Andrew, 12236284 " );
-		System.out.println( "­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­---------------------------------------" );
-		
 		new Drawing();
 	}
 	
@@ -103,8 +93,7 @@ public class Drawing extends JFrame {
 				//http://stackoverflow.com/questions/11272938/how-to-save-panel-as-image-in-swing	
 			}
 			else if(e.getSource() == about) {
-				JOptionPane.showMessageDialog(null,"This application was written by:\n Bilal Jumaah.\n"
-            	+ " Jonny Jackson.\n Andrew Creevey.");
+				JOptionPane.showMessageDialog(null,"Drawing 2015 Buzz Copyrights");
 			}
 			else if(e.getSource() == tut) {
 				String url ="https://www.youtube.com/watch?v=dQw4w9WgXcQ"; 
@@ -469,10 +458,3 @@ public class Drawing extends JFrame {
 		}
 	}
 }
-
-//we research many things on the internet to make this program happen. however we didnt copy any piece of code directly
-//other than the ones we have referenced. we just looked at example of code and explaining about codes. not sure if we need to literally
-//reference every single piece we googled how its done. so you might find some similar concept but the code was written by us
-//even some of the referenced code was also part of research not straight copy paste.
-
-//also, we emailed you about being a team of 3 on this assignment, thats you found 3 names.
